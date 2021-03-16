@@ -1,0 +1,30 @@
+#Technical Document
+Tools and Technologies.
+To configure it you should have.
+•	Visual Studio 2017 plus.
+•	Any tool you like to use for front end development like Visual Studio Code, Web Storm etc.
+•	Windows 10.
+#Environment Configuration.
+Server side web api is written in asp dot net core 2.2.
+•	You can download its SDK and runtime from the below link.
+https://dotnet.microsoft.com/download/dotnet-core/2.2
+•	OR you can download it directly from visual studio updates.
+Front end is written in Angular 8. For setup you need node js and npm installed.
+•	Download the latest version of windows node installer with extension .msi from the link below.
+https://nodejs.org/en/download/ after downloading launch the installer.
+•	OR you can follow the following link.
+https://phoenixnap.com/kb/install-node-js-npm-on-windows.
+
+#How to run
+After cloning the repository from version control.
+•	Open the visual studio.
+•	Go to files and click on open project.
+•	Browse to the location where you have cloned the project and double click Thesis.sln file.
+•	This will open the project in visual studio press ctrl + F5. This will build the code.
+•	Open the command prompt and write following command to download the angular CLI.
+npm install -g @angular/cli
+•	Change the directory to ClientApp. If you are in C drive and you have cloned the repo in C drive write following commands on command prompt.
+o	cd Thesis/Thesis/WebApp/ClientApp
+o	npm install (wait for the packages to download)
+o	npm run start (angular by default picks port 4200)
+•	After that open any browser and type (http://localhost:4200/).
