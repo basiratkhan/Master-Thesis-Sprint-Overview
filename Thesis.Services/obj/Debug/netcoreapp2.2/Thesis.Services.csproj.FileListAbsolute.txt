@@ -1,0 +1,8 @@
+C:\Users\basir\Source\Repos\SprintOverview\Thesis\Thesis.Services\bin\Debug\netcoreapp2.2\Thesis.Services.deps.json
+C:\Users\basir\Source\Repos\SprintOverview\Thesis\Thesis.Services\bin\Debug\netcoreapp2.2\Thesis.Services.dll
+C:\Users\basir\Source\Repos\SprintOverview\Thesis\Thesis.Services\bin\Debug\netcoreapp2.2\Thesis.Services.pdb
+C:\Users\basir\Source\Repos\SprintOverview\Thesis\Thesis.Services\obj\Debug\netcoreapp2.2\Thesis.Services.csprojAssemblyReference.cache
+C:\Users\basir\Source\Repos\SprintOverview\Thesis\Thesis.Services\obj\Debug\netcoreapp2.2\Thesis.Services.AssemblyInfoInputs.cache
+C:\Users\basir\Source\Repos\SprintOverview\Thesis\Thesis.Services\obj\Debug\netcoreapp2.2\Thesis.Services.AssemblyInfo.cs
+C:\Users\basir\Source\Repos\SprintOverview\Thesis\Thesis.Services\obj\Debug\netcoreapp2.2\Thesis.Services.dll
+C:\Users\basir\Source\Repos\SprintOverview\Thesis\Thesis.Services\obj\Debug\netcoreapp2.2\Thesis.Services.pdb

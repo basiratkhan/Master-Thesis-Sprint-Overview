@@ -1,0 +1,84 @@
+<div id="mainDiv" style="height:93vh;position: relative;border:23px groove #545565;">
+    <table style="height:100vh;width:100vw">
+        <tbody id="tbody">
+            <tr style="height:100%">
+                <td style="width:25%;max-width:100%" id="contaniner" *ngFor="let item of taskDividerList, let pindex = index">
+                    <span *ngFor="let item1 of taskList , let i = index">
+                        <ng-container *ngIf="i / 15 <= 1">
+                            <span [@changePosition]="{value: triggerValue, params: {position: item1.left}}"
+                                *ngIf="item.state == item1.state" [ngStyle]="{'top': item1.top}"
+                                style="position:absolute;z-index: 1;">
+                                <img style="opacity: 0.7;" src="{{item1.shape}}" alt="shape" [ngClass]="{
+                                'font-22': item1.priority == 4,
+                                'font-26': item1.priority == 3,
+                                'font-30': item1.priority == 2,
+                                'font-34': item1.priority == 1}">
+                                &nbsp;&nbsp;&nbsp;
+                            </span>
+                        </ng-container>
+                        <ng-container *ngIf="i / 15 > 1 && i / 15 <= 2">
+                            <span [@changePosition]="{value: triggerValue, params: {position: item1.left}}"
+                                *ngIf="item.state == item1.state" [ngStyle]="{'top': item1.top}"
+                                style="position:absolute;z-index: 2;">
+                                <img style="opacity: 0.6;" src="{{item1.shape}}" alt="shape" [ngClass]="{
+                                'font-22': item1.priority == 4,
+                                'font-26': item1.priority == 3,
+                                'font-30': item1.priority == 2,
+                                'font-34': item1.priority == 1}">
+                                &nbsp;&nbsp;&nbsp;
+                            </span>
+                        </ng-container>
+                        <ng-container *ngIf="i / 15 > 2 && i / 15 <= 3">
+                            <span [@changePosition]="{value: triggerValue, params: {position: item1.left}}"
+                                *ngIf="item.state == item1.state" [ngStyle]="{'top': item1.top}"
+                                style="position:absolute;z-index: 3;">
+                                <img style="opacity: 0.5;" src="{{item1.shape}}" alt="shape" [ngClass]="{
+                                'font-22': item1.priority == 4,
+                                'font-26': item1.priority == 3,
+                                'font-30': item1.priority == 2,
+                                'font-34': item1.priority == 1}">
+                                &nbsp;&nbsp;&nbsp;
+                            </span>
+                        </ng-container>
+                        <ng-container *ngIf="i / 15 > 3 && i / 15 <= 4">
+                            <span [@changePosition]="{value: triggerValue, params: {position: item1.left}}"
+                                *ngIf="item.state == item1.state" [ngStyle]="{'top': item1.top}"
+                                style="position:absolute;z-index: 4;">
+                                <img style="opacity: 0.4;" src="{{item1.shape}}" alt="shape" [ngClass]="{
+                                'font-22': item1.priority == 4,
+                                'font-26': item1.priority == 3,
+                                'font-30': item1.priority == 2,
+                                'font-34': item1.priority == 1}">
+                                &nbsp;&nbsp;&nbsp;
+                            </span>
+                        </ng-container>
+                        <ng-container *ngIf="i / 15 > 4 && i / 15 <= 5">
+                            <span [@changePosition]="{value: triggerValue, params: {position: item1.left}}"
+                                *ngIf="item.state == item1.state" [ngStyle]="{'top': item1.top}"
+                                style="position:absolute;z-index: 5;">
+                                <img style="opacity: 0.3;" src="{{item1.shape}}" alt="shape" [ngClass]="{
+                                'font-22': item1.priority == 4,
+                                'font-26': item1.priority == 3,
+                                'font-30': item1.priority == 2,
+                                'font-34': item1.priority == 1}">
+                                &nbsp;&nbsp;&nbsp;
+                            </span>
+                        </ng-container>
+                        <ng-container *ngIf="i / 15 > 5 && i / 15 <= 6">
+                            <span [@changePosition]="{value: triggerValue, params: {position: item1.left}}"
+                            *ngIf="item.state == item1.state" [ngStyle]="{'top': item1.top}"
+                            style="position:absolute;z-index: 6;">
+                            <img style="opacity: 0.2;" src="{{item1.shape}}" alt="shape" [ngClass]="{
+                                'font-22': item1.priority == 4,
+                                'font-26': item1.priority == 3,
+                                'font-30': item1.priority == 2,
+                                'font-34': item1.priority == 1}">
+                                &nbsp;&nbsp;&nbsp;
+                            </span>
+                        </ng-container>
+                    </span>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>

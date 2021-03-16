@@ -1,0 +1,13 @@
+C:\Users\basir\Source\Repos\SprintOverview\Thesis\Thesis.Managers\bin\Debug\netcoreapp2.2\Thesis.Managers.deps.json
+C:\Users\basir\Source\Repos\SprintOverview\Thesis\Thesis.Managers\bin\Debug\netcoreapp2.2\Thesis.Managers.dll
+C:\Users\basir\Source\Repos\SprintOverview\Thesis\Thesis.Managers\bin\Debug\netcoreapp2.2\Thesis.Managers.pdb
+C:\Users\basir\Source\Repos\SprintOverview\Thesis\Thesis.Managers\bin\Debug\netcoreapp2.2\Thesis.Models.dll
+C:\Users\basir\Source\Repos\SprintOverview\Thesis\Thesis.Managers\bin\Debug\netcoreapp2.2\Thesis.Services.dll
+C:\Users\basir\Source\Repos\SprintOverview\Thesis\Thesis.Managers\bin\Debug\netcoreapp2.2\Thesis.Models.pdb
+C:\Users\basir\Source\Repos\SprintOverview\Thesis\Thesis.Managers\bin\Debug\netcoreapp2.2\Thesis.Services.pdb
+C:\Users\basir\Source\Repos\SprintOverview\Thesis\Thesis.Managers\obj\Debug\netcoreapp2.2\Thesis.Managers.csprojAssemblyReference.cache
+C:\Users\basir\Source\Repos\SprintOverview\Thesis\Thesis.Managers\obj\Debug\netcoreapp2.2\Thesis.Managers.AssemblyInfoInputs.cache
+C:\Users\basir\Source\Repos\SprintOverview\Thesis\Thesis.Managers\obj\Debug\netcoreapp2.2\Thesis.Managers.AssemblyInfo.cs
+C:\Users\basir\Source\Repos\SprintOverview\Thesis\Thesis.Managers\obj\Debug\netcoreapp2.2\Thesis.Managers.csproj.CopyComplete
+C:\Users\basir\Source\Repos\SprintOverview\Thesis\Thesis.Managers\obj\Debug\netcoreapp2.2\Thesis.Managers.dll
+C:\Users\basir\Source\Repos\SprintOverview\Thesis\Thesis.Managers\obj\Debug\netcoreapp2.2\Thesis.Managers.pdb
